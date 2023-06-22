@@ -2,6 +2,8 @@
 ![oil_pipeline_accident_GC](oil_pipeline_accident_GC.png)
 Visualisation of oil pipeline accident
 
+**PLEASE SEE 'oil_pipeline_accidents_visualization.ipynb' for the JupyerNotebook** 
+
 The objective of this analysis is to examine a dataset containing records of oil pipeline leaks and spills reported to the Pipeline and Hazardous Materials Safety Administration since 2010. The dataset provides valuable information about each incident, including the date and time of the accident, the operator and pipeline involved, the cause of the incident, the type of hazardous liquid released, the quantity lost, injuries and fatalities, and associated costs.
 
 By analyzing this dataset, we aim to gain insights into the patterns, trends, and factors contributing to oil pipeline accidents. This information can be crucial for understanding the safety and environmental implications of pipeline operations, as well as identifying areas for improvement in preventing and mitigating such incidents.
@@ -75,7 +77,7 @@ The majority of accidents in the dataset are concentrated in the United States. 
 
 ### Which companies are the most affected?
 Let's examine which companies have been most impacted by accidents since 2010, as represented in this dataset.
-![Number_of_Accidents_Top_10_Companies](graphs/number_of_accidents_Top_10_Companies.png)
+![Number_of_Accidents_Top_10_Companies](https://github.com/noellymadeleine/Oil_pipeline_accidents_analysis/blob/main/graphs/Number_of_Accidents_Top_10_Companies.png)
 
 
 ### What about the cost?
@@ -86,19 +88,20 @@ Analyzing the cost data in this dataset provides valuable insights into the fina
 
 ### What about the lost in barrel ?
 Analyzing the barrel loss data in this dataset provides crucial insights into the volume of product lost during pipeline spills. It helps evaluate the environmental impact, assess safety risks, implement preventive measures, optimize response strategies, and enhance overall pipeline integrity. Understanding the magnitude of barrel loss enables stakeholders to make informed decisions and take appropriate actions to minimize future losses and protect natural resources.
-![Total_Net_Loss_map](graphs/total_net_loss_map.png)
 ![Total_Net_Loss](graphs/Total_Net_Loss.png)
+![Total_Net_Loss_map](https://github.com/noellymadeleine/Oil_pipeline_accidents_analysis/blob/main/graphs/Total_Net_Loss_Map.png)
 
 ### What are the most predominant causes for these accidents?
 ![Distribution_of_Accident_Causes](graphs/Distribution_of_Accident_Causes.png)
 
 The most predominant reason for the accident includes equipment failure.
 
-![Average_Accidents_Per_month](graphs/Average_Accidents_Per_month.png)
 
 ### Is there a period in the day, month or year that accident are more likely to happend ?
 ![Average_Accidents_Per_Hour](graphs/Average_Accidents_Per_Hour.png)
 ![Average_Accidents_Per_Day](graphs/Average_Accidents_Per_Day.png)
+![Average_Accidents_Per_month](https://github.com/noellymadeleine/Oil_pipeline_accidents_analysis/blob/main/graphs/Average_Accidents_Per_Month.png)
+
 
 The analysis of the accident data suggests that, on average, the number of accidents remains relatively consistent throughout the year and across different months. However, when considering the daily scale, there is an observable trend indicating a higher number of accidents between 6 AM and 6 PM. This pattern may be attributed to various factors, such as increased human activity, rush hour traffic, or working hours when operational activities are at their peak.
 To gain further insights into the causes of accidents and their relationship with the time of day, mapping the accident causes alongside the corresponding time periods could provide valuable information. By visually representing the spatial distribution of accident causes and their occurrence during different times of the day, patterns and correlations may emerge, shedding light on potential factors contributing to accidents during specific time periods. Such analysis can help identify hotspots, time-sensitive risk factors, and inform targeted preventive measures and safety strategies.

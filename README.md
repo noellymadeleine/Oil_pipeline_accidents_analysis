@@ -64,7 +64,7 @@ The summary statistics provide a statistical overview of numeric columns in the 
 
 ### Where are the accident?
 
-To begin with, the dataset includes a location column that denotes whether the accident occurred offshore or onshore.![Pipeline_Location_Percentage]
+To begin with, the dataset includes a location column that denotes whether the accident occurred offshore or onshore.
 ![Pipeline_Location_Percentage](graphs/Pipeline_Location_Percentage.png)
 Due to less than 1% of the data focusing on offshore accidents, this dataset is not suitable for conducting a meaningful comparison between offshore and onshore accidents.
 
@@ -87,7 +87,7 @@ Analyzing the cost data in this dataset provides valuable insights into the fina
 ### What about the lost in barrel ?
 Analyzing the barrel loss data in this dataset provides crucial insights into the volume of product lost during pipeline spills. It helps evaluate the environmental impact, assess safety risks, implement preventive measures, optimize response strategies, and enhance overall pipeline integrity. Understanding the magnitude of barrel loss enables stakeholders to make informed decisions and take appropriate actions to minimize future losses and protect natural resources.
 ![Total_Net_Loss](graphs/Total_Net_Loss.png)
-![Total_Net_Loss_map](graphs/Total_Net_Loss_map.png)
+![Total_Net_Loss_map](graphs/total_net_loss_map.png)
 
 
 ### What are the most predominant causes for these accidents?
